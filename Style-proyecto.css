@@ -1,0 +1,103 @@
+*{
+    background-color: rgb(197, 195, 195);
+    font-family: "Playfair",sans-serif;
+}
+
+header{
+    background-color: rgb(81, 81, 121);
+
+}
+.encabezado{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    height: 70px;
+   
+}
+
+.titulo,.logo{
+    background-color: rgb(81, 81, 121);
+}
+
+.logo{
+    object-fit: cover;
+    padding: 10px;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: center;
+}
+
+textarea{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+
+
+.textarea1{
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 1.5rem;
+}
+    .textarea1,.textarea2:focus{
+    outline:none;
+    }
+
+.textarea2{
+    margin-left: 50px;
+    border-radius: 5px;
+
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones-encriptador{
+    margin-top: 20px;
+    margin-right: 400px;
+    
+    
+}
+
+.botones-encriptador button{
+    margin-right: 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    background-color: rgb(81, 81, 121);
+}
+
+.copiar{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+footer{
+    background-color: rgb(81, 81, 121);
+    height: 100px;
+    display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+p{
+    background-color: rgb(81, 81, 121);
+    margin: 45px auto 0 auto;
+    
+}

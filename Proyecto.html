@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+     
+    <head>
+    
+      <meta charset = "UTF-8">
+      <meta name= "viewport" content="width=device-width">
+      <title>Encriptador</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="Style-proyecto.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Playfair:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header class="encabezado">
+             <img class="logo" src="C:\Users\Jeron\OneDrive\Escritorio\1742-HTML5-y-CSS3-parte1-master\Logo.png">
+            <h1 class="titulo">Encriptador de Texto</h1>
+        </header>
+        <main>
+            <div class="container">
+                <textarea class="textarea1" rows="30" cols="70" placeholder="Ingrese el texto a encriptar"></textarea>
+                <textarea  id = "textarea2"class="textarea2" rows="30" cols="50" placeholder="Aún no has ingresado texto"></textarea>
+            </div>
+            <div class="botones">
+                <div class="botones-encriptador">
+                    <button onclick="btnEncriptar()">Encriptar</button>
+                    <button onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+            <script src="Script.js"></script>
+        </main>
+        <footer>
+            <p>Copyright Jerónimo Vásquez González</p>
+        </footer>
+        
+        
+    </body>
+
